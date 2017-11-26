@@ -158,7 +158,7 @@ Or, if you don't want/need a background service you can just run:
 ./bin/kafka-topics --list --zookeeper localhost:2181
 ```
 
-![kafka](doc/1.png)
+![kafka](https://raw.githubusercontent.com/LiushuiXiaoxia/SpringKafkaDemo/master/doc/1.png)
 
 ### 消息发送与消费
 
@@ -177,7 +177,7 @@ Kafka还有一个命令行消费者，将消息转储到标准输出。
 ./bin/kafka-console-consumer --bootstrap-server localhost:9092 --topic abc123 --from-beginning
 ```
 
-![kafka](doc/2.png)
+![kafka](https://raw.githubusercontent.com/LiushuiXiaoxia/SpringKafkaDemo/master/doc/2.png)
 
 如图，上面的是生产者，下面的是消费者，依次发送aaa,bbb,....ggg，消费者依次会收到对应的消息。
 
@@ -187,13 +187,13 @@ Kafka还有一个命令行消费者，将消息转储到标准输出。
 
 直接使用Idea创建一个Spring Boot项目即可，同时添加`Lombok`和`Kafka`库。
 
-![](doc/spring_boot_1.png)
+![](https://raw.githubusercontent.com/LiushuiXiaoxia/SpringKafkaDemo/master/doc/spring_boot_1.png)
 
-![](doc/spring_boot_2.png)
+![](https://raw.githubusercontent.com/LiushuiXiaoxia/SpringKafkaDemo/master/doc/spring_boot_2.png)
 
-![](doc/spring_boot_3.png)
+![](https://raw.githubusercontent.com/LiushuiXiaoxia/SpringKafkaDemo/master/doc/spring_boot_3.png)
 
-![](doc/spring_boot_4.png)
+![](https://raw.githubusercontent.com/LiushuiXiaoxia/SpringKafkaDemo/master/doc/spring_boot_4.png)
 
 也可以接添加依赖库。
 
@@ -329,7 +329,7 @@ message ={"id":1511678833109,"msg":"f77fbb85-0eb9-402c-8265-c37987011551","sendT
 
 同时原先的命令行消费者也会受到程序发送的消息。
 
-![](doc/kafka_cli.png)
+![](https://raw.githubusercontent.com/LiushuiXiaoxia/SpringKafkaDemo/master/doc/kafka_cli.png)
 
 ## 总结
 
